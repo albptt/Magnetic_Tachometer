@@ -3,7 +3,7 @@ close all
 clc
 
 %% valori misurati
-theta = linspace(-pi/15, pi/15, 17);
+theta = linspace(-pi/15, pi/15, 17); % i plot dei grafici polari richiedono i valori in radianti
 voltage = [2.49 2.49 2.5 2.52 2.554 2.6 2.644 2.68 2.706 2.708 2.694 ...
     2.66 2.61 2.568 2.53 2.5 2.49]
     
