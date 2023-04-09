@@ -15,11 +15,11 @@ z = [0 pi/15];
 w = [0 3];
 
 %% curve per i valori a regime
-a = linspace(-pi/15, -pi, 12);
-b = 2.49.*1.^(1:12);
+a = linspace(-pi/15, -pi, 50);
+b = 2.49.*1.^(1:50);
 
-c = linspace (pi/15, pi, 12);
-d =2.49.*1.^(1:12);
+c = linspace (pi/15, pi, 50);
+d =2.49.*1.^(1:50);
 
 %% grafici
 figure(1)
