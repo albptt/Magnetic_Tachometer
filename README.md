@@ -6,7 +6,7 @@ The project focuses on the development of a magnetic tachometer from the linear 
 To achieve this aim, the sensor was used in combination with the following hardware:
 - Arduino Micro;
 - LM358AN OpAmp;
-- 10K Potentiometer;
+- CA9-MT-V10-10K Potentiometer;
 - HC-05 Bluetooth module;
 - Neodymium Magnet (N35);
 
@@ -19,7 +19,7 @@ Folders are organized as follows:
 
 ## Next Steps
 The next stages in the development of the device will be focused on:
-1. Creating a GUI via Processing to allow the user to get RPM readings on an Android smartphone via Blueooth
+1. Creating a GUI via Processing to allow the user to get RPM readings on an Android smartphone via Bluetooth
 2. Designing and printing a case so to perform live measurements on a bicycle
 
 
