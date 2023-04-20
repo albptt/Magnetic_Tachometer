@@ -25,6 +25,7 @@ for i = 1 : length(stepper)
 end
 average_error = mean(errore_perc);
 average_error_perc = average_error * 100;
+% ciao
 %% 
 figure(1)
 p=plot (values, sensors,'-o','LineWidth',1.5, 'Color',[1 0.5 0.8])
