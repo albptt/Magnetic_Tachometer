@@ -3,12 +3,8 @@ class Button{
   float xpos, ypos, wid, hei;
   String label;
   boolean over = false, pressed = false; 
-  Button
-  (
-    float tx, float ty,
-    float tw, float th,
-    String tlabel
-  )
+  
+  Button(float tx, float ty, float tw, float th, String tlabel)
   {
     xpos = tx;
     ypos = ty;
@@ -19,6 +15,7 @@ class Button{
   
   void update()
   {
+    // draw rectangle
     smooth();
     fill(0);
     strokeWeight(4);
@@ -32,15 +29,11 @@ class Button{
     {
       over = true;
       if(mousePressed)
-      {
         pressed = true;
-      }else
-      {
+      else
         pressed = false;
-      }
-    }else
-     {
-        over = false;
-     }
+    }
+    else
+      over = false;
   }
 }
