@@ -5,6 +5,9 @@ The project focuses on the development of a magnetic tachometer from the linear 
 
 To achieve this aim, the sensor was used in combination with the following hardware:
 - Arduino Micro;
+- Powerbank Solar charger 5.5V output, 300-600mA;
+- Booster DC-DC Step-up 2/24V to 5/12/28V Micro USB;
+- ON/OFF switch;
 - LM358AN OpAmp;
 - CA9-MT-V10-10K Potentiometer;
 - HC-05 Bluetooth module;
@@ -15,12 +18,9 @@ Folders are organized as follows:
 
 - __Arduino Code__ hosts the `.ino` file containing the algorithm for RPM measurements;
 - __Calibration__ hosts the MATLAB code used to display the measures performed to characterize the sensor;
+- __Case Design__ contains the `.SLDPRT` files for the 3D printed case; 
 - __Circuit__ hosts the circuit diagrams made using Fritzing software;
-
-## Next Steps
-The next stages in the development of the device will be focused on:
-1. Creating a GUI via Processing to allow the user to get RPM readings on an Android smartphone via Bluetooth
-2. Designing and printing a case so to perform live measurements on a bicycle
+- __Processing Code__ contains the GUI interface made via Processing, implementable both on Laptop and on Android smartphone.
 
 
 ***
