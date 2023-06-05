@@ -49,16 +49,21 @@ A.Color = 'k';
 A.LineWidth = 1;
 B.Color = 'k';
 B.LineWidth = 1;
-% ax = gca();
+ax = gca();
 legend('1.5cm', '2 cm', '2.5 cm')
 thetaticks(0:24:360)
-rticks([-2.4 2.5 2.6 2.7 2.8 2.9])
+% thetaticks([24 336])
+thetaticklabels ({'0','24°',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','','-24°'})
+pax = gca;
+pax.FontSize = 10
+%rticks([2.4 2.5 2.6 2.7 2.8 2.9])
+rticks([2.61 2.706 2.85])
 
-t = title('Rate of change of the voltage with respect to degree, South pole')
+%t = title('Rate of change of the voltage with respect to degree, South pole')
 
 
 %[t,s] = title ('Rate of change of the voltage with respect to degree, South pole','Different distances, \theta variable')
-t.FontSize = 16;
+%t.FontSize = 16;
 %t.Position = [5.5895e-06 3.7678 0]
 % s.FontAngle='italic';
 % s.Position = [5.5895e-06 3.4777 0]
