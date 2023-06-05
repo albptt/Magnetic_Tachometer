@@ -1,7 +1,9 @@
 <h1 align="center"> Magnetic Tachometer </h1>
 
-![alt-text](https://github.com/albptt/Magnetic_Tachometer/blob/main/tach_gif.gif)
-
+<p align="center">
+  <img src="https://github.com/albptt/Magnetic_Tachometer/blob/main/tach_gif.gif" alt="animated" />
+</p>
+   
 ## Project Goal
 The project focuses on the development of a magnetic tachometer from the linear Hall-effect sensor 811JF-55A4.
 
