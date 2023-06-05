@@ -26,6 +26,8 @@ Folders are organized as follows:
 - __Circuit__ hosts the circuit diagrams made using Fritzing software;
 - __Processing Code__ contains the GUI interface made via Processing, implementable both on Laptop and on Android smartphone.
 
+## Outcome
+A short view on the project outcome can be watched at: https://youtu.be/yc6C4M9zjqA
 
 ***
 
