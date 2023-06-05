@@ -54,12 +54,18 @@ B.LineWidth = 1;
 legend('1.5cm', '2 cm', '2.5 cm')
 legend('1.5cm', '2 cm', '2.5 cm')
 thetaticks(0:24:360)
-rticks([2.2 2.3 2.4 2.5])
+% thetaticks([24 336])
+thetaticklabels ({'0','24°',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','','-24°'})
+pax = gca;
+pax.FontSize = 10
+%rticks([2.4 2.5 2.6 2.7 2.8 2.9])
+rticks([2.214 2.292 2.36])
 
-t = title('Rate of change of the voltage with respect to degree, North pole')
+
+%t = title('Rate of change of the voltage with respect to degree, North pole')
 
 
 % caratteristiche titolo 
 %[t,s] = title ('Rate of change of the voltage with respect to degree, North pole','Different distances, \theta variable')
-t.FontSize = 16;
+%t.FontSize = 16;
 %s.FontAngle='italic';
