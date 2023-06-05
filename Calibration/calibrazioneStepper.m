@@ -46,5 +46,5 @@ p.MarkerFaceColor = [1 0.5 0.8];
 
 % p.MarkerSize = 8;
 %t.FontSize = 20;
-x.FontSize = 15;
-y.FontSize = 15;
+x.FontSize = 20;
+y.FontSize = 20;
